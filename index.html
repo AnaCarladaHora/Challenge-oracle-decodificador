@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Código Secreto</title>
+  <link rel="icon" href="img/Cyborg-amico.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="cabecalho">
+		<h1 class="cabecalho-titulo"><img class="cabecalho-imagem" src="img/Cyborg-amico.png" alt=""> Código Secreto<img
+				class="cabecalho-imagem" src="img/Cyborg-amico.png" alt="">
+		</h1>
+	</header>
+
+  <main class="conteudo">
+
+		<section class="conteudo-principal">
+
+			<div class="conteudo-principal-entrada">
+				<form>
+					<label class="conteudo-principal-entrada-titulo" for="input-text">Insira seu texto, sem
+						acentos</label>
+					<p class="conteudo-principal-entrada-erro" id="erro" class="esconder">.</p>
+					<input class="conteudo-principal-entrada-input" type="text" name="criptografar" id="input-text"
+						placeholder="Insira seu texto">
+					<div class="conteudo-btn">
+						<input class="conteudo-principal-entrada-btn btn" type="submit" id="criptografar"
+							value="critografar">
+						<input class="conteudo-principal-entrada-btn btn" type="submit" id="descriptografar"
+							value="Descriptografar">
+					</div>
+				</form>
+			</div>
+
+			<div class="conteudo-principal-saida">
+				<p class="conteudo-principal-saida-titulo">Mensagem criptografada</p>
+				<textarea class="conteudo-principal-saida-text" id="resposta" readonly
+					placeholder="Aguardando..."></textarea>
+				<button class="conteudo-principal-saida-btn btn" id="copiar">Copiar texto</button>
+			</div>
+
+		</section>
+
+	</main>
+	<footer class="rodape">
+		<strong class="rodape-autor" href="">Desenvolvido por: Ana Carla Da Hora C.</strong>
+		<nav class="rodape-menu">
+			<a class="rodape-menu-item" href="https://github.com/AnaCarladaHora" target="_blank"><img
+					class="rodape-imagem-menu"
+					src="https://img.utdstc.com/icon/4ae/f58/4aef58c6b9e0de9aa521e06df2d6ecf60f4feeed02f501b0cae42e04ba6f56c7:200"
+					alt=""></a>
+			<a class="rodape-menu-item" href="https://github.com/AnaCarladaHora" target="_blank">GitHut</a>
+			<a class="rodape-menu-item" href="https://www.linkedin.com/in/ana-carla-da-hora-concei%C3%A7%C3%A3o-6b778014b/" target="_blank"><img
+					class="rodape-imagem-menu"
+					src="https://www.spiner.com.br/wp-content/uploads/2019/02/midias-sociais-linkedin-icon.png"
+					alt=""></a>
+			<a class="rodape-menu-item" href=https://www.linkedin.com/in/ana-carla-da-hora-concei%C3%A7%C3%A3o-6b778014b/" target="_blank">Linkedin</a>
+		</nav>
+
+	</footer>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
